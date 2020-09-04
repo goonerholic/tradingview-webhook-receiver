@@ -1,0 +1,25 @@
+{
+  "name": "tvWebHook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bitmex-realtime-api": "^0.4.3",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "qs": "^6.9.3"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon --watch src src/index"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4",
+    "nodemon": "^2.0.2"
+  }
+}

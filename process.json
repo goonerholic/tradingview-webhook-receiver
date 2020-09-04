@@ -1,0 +1,11 @@
+{
+    "apps": [
+        {
+            "name": "tv-webhook",
+            "script": "yarn",
+            "args": "start",
+            "time": true,
+            "watch": true
+        }
+    ]
+}
